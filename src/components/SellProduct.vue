@@ -34,7 +34,7 @@
           <footer class="card-footer">
             <div :class="{
               'disableSelect': Product.amount <= 0
-            }" @click="addToBucket(key)" class="card-footer-item orange">Select Product</div>
+            }" @click="addToBucket(key)" class="card-footer-item orange">ซื้อสินค้า</div>
           </footer>
         </div>
       </div>
